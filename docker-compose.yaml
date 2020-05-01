@@ -18,3 +18,5 @@ services:
 
   rust_test_project:
     build: ./rust/test_project
+    ports:
+      - 9090:9090
